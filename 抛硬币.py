@@ -1,7 +1,7 @@
 #点击空格抛硬币
 import pygame,sys,math,random
 #def cos(len):return math.cos(math.radians(len))
-def cos(n):#这里cos函数可以是任意的，个人感觉线性的看这更舒服
+def cos(n):#这里cos函数可以是任意的，个人感觉线性的看着更舒服
     if 0<=n<=180:
         return -n/90+1
     elif n>180:
